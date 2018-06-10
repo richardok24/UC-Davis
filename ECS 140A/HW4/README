@@ -1,0 +1,11 @@
+Huan Lou, 914977960, hhhlou@ucdavis.edu, lh1995
+Richard Xie, 915505564, ricxie@ucdavis.edu, richardo
+
+part1: Passed test.l
+Function all-length, range, before, split-if, group, mostn are defined.
+
+part2: Passed test.l
+Function match is defined. It compares a pattern and assertion. When a pattern containing no special atoms is compared to an assertion, the two match only if they are exactly the same, with each corresponding position occupied by the same atom.
+
+part3: Passed test.l
+Function match-var is defined. It's an extension of match, and it takes patterns containing pattern variables and matches them against assertions and assigns values to variables.

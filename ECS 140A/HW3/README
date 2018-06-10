@@ -1,0 +1,17 @@
+part1:
+Class Element, MyInteger, MyChar, Sequence, and there methods are defined.
+
+part2: Passed Test2.java
+Print method is added to each class. Method first, rest, length, add, and delete methods are added to the Sequence class.
+
+part3: Passed Test3.java
+Method index, flatten, and copy are added to the Sequence class.
+
+part4: Passed Test4.java
+Class SequenceIterator is created to serve as an iterator over Sequence objects.
+
+part5: Passed Test5.java
+Class Matrix, which represents a 2D array of integers, is defined by entending Sequence. Set, Get, Sum, Product, and Print methods are added to the Matrix class.
+
+part6: Passed Test6.java
+Class Map, MapIterator, and Pair are created. A Map object stores a set of Pair objects. Each Pair object contains a key object and a value object. A key object refers to a MyChar object whereas a value object can refer to any type of Element. The elements can be stored and retrieved using a key.MapIterator object is similar to that of a SequenceIterator object. 

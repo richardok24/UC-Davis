@@ -1,0 +1,18 @@
+part1: Based on the code given. Add codes to make the project have all the cases of token. it passes the runall test.
+
+part2: add some functions in parser to compelete the project that parser the non-terminal to java code. pass the runall test.
+
+part3: add one class symboltable to control the symboltable, and parser can use symboltable to store the vars that are in the e-code, and verify if the vars are correct or not.
+pass the runall test.
+
+part4: add code in class parser, which can rewrite e code to c code format.
+pass the runall test.
+
+part5: add one new non-terminal in e-code which is:
+	for::="&"expr":"block"$"
+	and change the non-terminal statement to:
+	statement ::= assignment | print | do | if | for
+	and add code in the project to show the for loop, and change the exist statement function and isStatement function to the new functions. 
+	we already put two .e files and two .correct files in the part5 directory, which can test the for loop, one is correct test, and one is wrong.
+
+
